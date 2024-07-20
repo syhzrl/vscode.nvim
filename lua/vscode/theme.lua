@@ -484,7 +484,7 @@ theme.set_highlights = function(opts)
     hl(0, 'NvimTreeGitNew', { fg = c.vscGitAdded, bg = 'NONE' })
 
     -- NeoTree
-    hl(0, 'NvimTreeVertSplit', { fg = c.vscBack, bg = c.vscBack })
+    hl(0, 'NeoTreeVertSplit', { fg = c.vscBack, bg = c.vscBack })
     hl(0, 'NeoTreeGitAdded', { fg = c.vscGitAdded, bg = 'NONE' })
     hl(0, 'NeoTreeGitConflict', { fg = c.vscGitConflicting, bg = 'NONE' })
     hl(0, 'NeoTreeGitDeleted', { fg = c.vscGitDeleted, bg = 'NONE' })
