@@ -8,6 +8,7 @@ local defaults = {
     group_overrides = {},
     disable_nvimtree_bg = true,
     terminal_colors = true,
+    disable_telescope_bg = true,
 }
 
 config.opts = {}
@@ -20,6 +21,7 @@ config.setup = function(user_opts)
         italic_comments = (vim.g.vscode_italic_comment == true or vim.g.vscode_italic_comment == 1),
         underline_links = (vim.g.vscode_underline_links == true or vim.g.vscode_underline_links == 1),
         disable_nvimtree_bg = (vim.g.vscode_disable_nvim_tree_bg == true or vim.g.vscode_disable_nvim_tree_bg == 1),
+        disable_telescope_bg = (vim.g.vscode_disable_telescope_bg == true or vim.g.vscode_disable_telescope_bg == 1),
     })
 
     -- but override global vars settings with setup() settings
