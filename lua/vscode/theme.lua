@@ -483,9 +483,20 @@ theme.set_highlights = function(opts)
     hl(0, 'NvimTreeGitDirty', { fg = c.vscGitModified, bg = 'NONE' })
     hl(0, 'NvimTreeGitNew', { fg = c.vscGitAdded, bg = 'NONE' })
 
+    -- NeoTree
+    hl(0, 'NvimTreeVertSplit', { fg = c.vscBack, bg = c.vscBack })
+    hl(0, 'NeoTreeGitAdded', { fg = c.vscGitAdded, bg = 'NONE' })
+    hl(0, 'NeoTreeGitConflict', { fg = c.vscGitConflicting, bg = 'NONE' })
+    hl(0, 'NeoTreeGitDeleted', { fg = c.vscGitDeleted, bg = 'NONE' })
+    hl(0, 'NeoTreeGitIgnored', { fg = c.vscGitIgnored, bg = 'NONE' })
+    hl(0, 'NeoTreeGitModified', { fg = c.vscGitModified, bg = 'NONE' })
+    hl(0, 'NeoTreeGitUnstaged', { fg = c.vscGitUntracked, bg = 'NONE' })
+    hl(0, 'NeoTreeGitUntracked', { fg = c.vscGitUntracked, bg = 'NONE' })
+    hl(0, 'NeoTreeGitStaged', { fg = c.vscGitStageModified, bg = 'NONE' })
+
     -- Bufferline
     hl(0, 'BufferLineIndicatorSelected', { fg = c.vscLeftDark, bg = 'NONE' })
-    hl(0, 'BufferLineFill', { fg = c.vscBlueGreen, bg = c.vscLeftDark })
+    hl(0, 'BufferLineFill', { fg = 'NONE', bg = c.vscLeftDark })
 
     -- BarBar
     hl(0, 'BufferCurrent', { fg = c.vscFront, bg = c.vscTabCurrent })
