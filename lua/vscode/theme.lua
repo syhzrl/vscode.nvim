@@ -485,7 +485,7 @@ theme.set_highlights = function(opts)
 
     -- Bufferline
     hl(0, 'BufferLineIndicatorSelected', { fg = c.vscLeftDark, bg = 'NONE' })
-    hl(0, 'BufferLineFill', { fg = 'NONE', bg = opts.transparent and c.vscBack or c.vscLeftDark })
+    hl(0, 'BufferLineFill', { fg = 'NONE', bg = c.vscLeftDark })
 
     -- BarBar
     hl(0, 'BufferCurrent', { fg = c.vscFront, bg = c.vscTabCurrent })
