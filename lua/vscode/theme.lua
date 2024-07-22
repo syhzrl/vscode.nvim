@@ -484,6 +484,9 @@ theme.set_highlights = function(opts)
     hl(0, 'NvimTreeGitNew', { fg = c.vscGitAdded, bg = 'NONE' })
 
     -- NeoTree
+    hl(0, 'NeoTreeNormal', { bg = opts.disable_neotree_bg and 'NONE' or c.vscBack })
+    hl(0, 'NeoTreeNormalNC', { bg = opts.disable_neotree_bg and 'NONE' or c.vscBack })
+    hl(0, 'NeoTreeCursorLine', { bg = c.vscLeftMid })
     hl(0, 'NeoTreeGitAdded', { fg = c.vscGitAdded, bg = 'NONE' })
     hl(0, 'NeoTreeGitConflict', { fg = c.vscGitConflicting, bg = 'NONE' })
     hl(0, 'NeoTreeGitDeleted', { fg = c.vscGitDeleted, bg = 'NONE' })
